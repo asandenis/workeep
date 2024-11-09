@@ -1,0 +1,252 @@
+{
+    "jobs": [
+        {
+            "id": "Director Customer Service",
+            "name": "Director Customer Service"
+        },
+        {
+            "id": "Director Dezvoltare Produse",
+            "name": "Director Dezvoltare Produse"
+        },
+        {
+            "id": "Director Financiar",
+            "name": "Director Financiar"
+        },
+        {
+            "id": "Director Marketing",
+            "name": "Director Marketing"
+        },
+        {
+            "id": "Director Operațiuni",
+            "name": "Director Operațiuni"
+        },
+        {
+            "id": "Director Resurse Umane",
+            "name": "Director Resurse Umane"
+        },
+        {
+            "id": "Director Tehnologia Informației",
+            "name": "Director Tehnologia Informației"
+        },
+        {
+            "id": "Director Vânzări",
+            "name": "Director Vânzări"
+        },
+        {
+            "id": "Administrator Baze de Date",
+            "name": "Administrator Baze de Date"
+        },
+        {
+            "id": "Administrator de Rețea",
+            "name": "Administrator de Rețea"
+        },
+        {
+            "id": "Administrator de Sisteme",
+            "name": "Administrator de Sisteme"
+        },
+        {
+            "id": "Manager Achiziții de Talente",
+            "name": "Manager Achiziții de Talente"
+        },
+        {
+            "id": "Manager Asigurarea Calității",
+            "name": "Manager Asigurarea Calității"
+        },
+        {
+            "id": "Manager Conformitate",
+            "name": "Manager Conformitate"
+        },
+        {
+            "id": "Manager Cibersecuritate",
+            "name": "Manager Cibersecuritate"
+        },
+        {
+            "id": "Manager Tehnologia Informației",
+            "name": "Manager Tehnologia Informației"
+        },
+        {
+            "id": "Manager Logistică",
+            "name": "Manager Logistică"
+        },
+        {
+            "id": "Manager Marketing",
+            "name": "Manager Marketing"
+        },
+        {
+            "id": "Manager Operațiuni",
+            "name": "Manager Operațiuni"
+        },
+        {
+            "id": "Manager Proiect",
+            "name": "Manager Proiect"
+        },
+        {
+            "id": "Manager Relații Publice",
+            "name": "Manager Relații Publice"
+        },
+        {
+            "id": "Manager Resurse Umane",
+            "name": "Manager Resurse Umane"
+        },
+        {
+            "id": "Manager Servicii Clienți",
+            "name": "Manager Servicii Clienți"
+        },
+        {
+            "id": "Manager Sustenabilitate",
+            "name": "Manager Sustenabilitate"
+        },
+        {
+            "id": "Manager Financiar",
+            "name": "Manager Financiar"
+        },
+        {
+            "id": "Manager Lanț de Aprovizionare",
+            "name": "Manager Lanț de Aprovizionare"
+        },
+        {
+            "id": "Manager Mediu, Sănătate și Siguranță",
+            "name": "Manager Mediu, Sănătate și Siguranță"
+        },
+        {
+            "id": "Manager Produs",
+            "name": "Manager Produs"
+        },
+        {
+            "id": "Manager Risc",
+            "name": "Manager Risc"
+        },
+        {
+            "id": "Manager Vânzări",
+            "name": "Manager Vânzări"
+        },
+        {
+            "id": "Team Lead",
+            "name": "Team Lead"
+        },
+        {
+            "id": "Analist de Afaceri",
+            "name": "Analist de Afaceri"
+        },
+        {
+            "id": "Analist de Date",
+            "name": "Analist de Date"
+        },
+        {
+            "id": "Analist de Securitate a Informațiilor",
+            "name": "Analist de Securitate a Informațiilor"
+        },
+        {
+            "id": "Analist Financiar",
+            "name": "Analist Financiar"
+        },
+        {
+            "id": "Analist Lanț de Aprovizionare",
+            "name": "Analist Lanț de Aprovizionare"
+        },
+        {
+            "id": "Animator",
+            "name": "Animator"
+        },
+        {
+            "id": "Auditor Intern",
+            "name": "Auditor Intern"
+        },
+        {
+            "id": "Avocat Corporativ",
+            "name": "Avocat Corporativ"
+        },
+        {
+            "id": "Consilier Juridic",
+            "name": "Consilier Juridic"
+        },
+        {
+            "id": "Contabil",
+            "name": "Contabil"
+        },
+        {
+            "id": "Coordonator Logistică",
+            "name": "Coordonator Logistică"
+        },
+        {
+            "id": "Copywriter",
+            "name": "Copywriter"
+        },
+        {
+            "id": "Creator de Conținut",
+            "name": "Creator de Conținut"
+        },
+        {
+            "id": "Data Scientist",
+            "name": "Data Scientist"
+        },
+        {
+            "id": "Designer Grafic",
+            "name": "Designer Grafic"
+        },
+        {
+            "id": "Designer UX/UI",
+            "name": "Designer UX/UI"
+        },
+        {
+            "id": "Dezvoltator Software",
+            "name": "Dezvoltator Software"
+        },
+        {
+            "id": "Fotograf",
+            "name": "Fotograf"
+        },
+        {
+            "id": "Inginer Full-Stack",
+            "name": "Inginer Full-Stack"
+        },
+        {
+            "id": "Inginer Machine Learning",
+            "name": "Inginer Machine Learning"
+        },
+        {
+            "id": "Inginer Software",
+            "name": "Inginer Software"
+        },
+        {
+            "id": "Inginer Web",
+            "name": "Inginer Web"
+        },
+        {
+            "id": "Intern",
+            "name": "Intern"
+        },
+        {
+            "id": "Manager Asistență Tehnică",
+            "name": "Manager Asistență Tehnică"
+        },
+        {
+            "id": "Manager Social Media",
+            "name": "Manager Social Media"
+        },
+        {
+            "id": "Manager Taxe",
+            "name": "Manager Taxe"
+        },
+        {
+            "id": "Manager Plăți",
+            "name": "Manager Plăți"
+        },
+        {
+            "id": "Manager Proprietate Intelectuală",
+            "name": "Manager Proprietate Intelectuală"
+        },
+        {
+            "id": "Planificator Media",
+            "name": "Planificator Media"
+        },
+        {
+            "id": "Specialist Suport Tehnic",
+            "name": "Specialist Suport Tehnic"
+        },
+        {
+            "id": "Videograf",
+            "name": "Videograf"
+        }
+    ]
+}

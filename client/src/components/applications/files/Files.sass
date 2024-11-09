@@ -1,0 +1,135 @@
+.Files
+  font-family: 'Argentum Sans', sans-serif
+  padding: 20px
+  border: 1px dashed #ccc
+  font-size: 16px
+
+.files-input
+  &[type="text"]
+    padding: 5px
+    margin-right: 10px
+    border-radius: 5px
+    transition: filter 0.3s
+    font-size: 16px
+
+    &:first-child
+      width: 300px
+      height: 20px
+
+    &:focus
+      outline: none
+      border: solid 3px #f8c630
+      filter: drop-shadow(#ffd556 0 0 5px)
+      transition: filter 0.3s
+
+  &.light
+    background-color: #ffffff
+    color: #363d44
+    border: 2px solid #111
+
+  &.dark
+    background-color: #363d44
+    color: #ffffff
+    border: 3px solid #ccc
+
+  font-family: 'Argentum Sans', sans-serif
+
+.files-button
+  padding: 5px 10px
+  margin-right: 10px
+  margin-top: 15px
+  background-color: #ffffff
+  font-size: 20px
+  border: none
+  border-radius: 5px
+  cursor: pointer
+  transition: background-color 0.3s, font-size 0.3s, width 0.3s
+  background-color: #f8c630
+  color: #2b2929
+  font-family: 'Argentum Sans', sans-serif
+
+  &:hover
+    background-color: #fcae24
+    width: 1.5
+    transition: background-color 0.3s, font-size 0.3s, width 0.3s
+    font-size: 25px
+
+.files-grid-container
+  display: grid
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))
+  grid-gap: 10px
+  margin-top: 30px
+
+.files-grid-item
+  display: flex
+  align-items: center
+  padding: 10px
+  border: 1px solid #ccc
+  border-radius: 5px
+  cursor: pointer
+  margin-top: 10px
+  transition: filter 0.3s, background-color 0.3s
+
+  &.selected
+    background-color: #d7ecff
+    border: solid 3px #52acfa
+    filter: drop-shadow(#99cfff 0 0 5px)
+    transition: filter 0.3s, background-color 0.3s
+
+    &.dark
+      color: #363d44
+
+  &:not(.selected)
+    &:hover
+      background-color: #d1e7fa
+
+    &.dark:hover
+      background-color: #d1e7fa
+      color: #363d44
+
+.files-grid-item-content
+  display: flex
+  flex-direction: row
+  align-items: center
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
+  flex-grow: 1
+
+.files-grid-item-info
+  display: flex
+  flex-direction: column
+  align-items: left
+  overflow: hidden
+  overflow-x: auto
+  text-overflow: ellipsis
+  white-space: nowrap
+  width: 80%
+  margin-top: 5px
+
+  &::-webkit-scrollbar
+    display: none
+
+  span
+    margin-top: 5px
+
+  img
+    width: 50px
+    height: 50px
+    margin-bottom: 5px
+
+.files-grid-item-delete
+  margin-left: auto
+
+.files-recycle-bin
+  width: 40px
+  height: 40px
+
+.files-grid-item
+  user-select: none
+
+  img, span
+    user-select: none
+
+  &:focus
+    outline: none

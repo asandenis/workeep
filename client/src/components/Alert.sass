@@ -1,0 +1,68 @@
+.alert-wrapper
+  position: fixed
+  top: 20px
+  left: 0
+  width: 100%
+  display: flex
+  justify-content: center
+  align-items: center
+  z-index: 5000
+
+.alert
+  border: 1px solid #ccc
+  border-radius: 8px
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+  display: flex
+  align-items: center
+  padding: 10px
+  background-color: #ffffff
+  color: #363d44
+  flex-direction: column-reverse
+  z-index: 1000
+  font-family: 'Argentum Sans', sans-serif
+
+  &.dark
+    background-color: #363d44
+    color: #ffffff
+
+.alert-content
+  display: flex
+  align-items: center
+  flex-grow: 1
+
+.alert-icon img
+  width: 40px
+  height: 40px
+  margin-right: 10px
+
+.alert-message
+  flex: 1
+  font-size: 20px
+  margin-right: 20px
+
+.alert-close-icon
+  cursor: pointer
+  background-color: rgb(206, 19, 19)
+  border-radius: 50%
+  width: 20px
+  height: 20px
+  transition: transform 0.3s, background-color 0.3s
+  margin-right: 5px
+
+  &:hover
+    background-color: red
+    transform: scale(1.5)
+    transition: transform 0.3s, background-color 0.3s
+
+  &.light
+    color: #fff
+
+@keyframes slideDown
+  from
+    transform: translateY(-100%)
+
+  to
+    transform: translateY(0)
+
+.alert
+  animation: slideDown 0.5s forwards

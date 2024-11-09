@@ -1,0 +1,94 @@
+.home
+  &.light
+    background-color: #ffffff
+    color: #363d44
+
+  &.dark
+    background-color: #424b54
+    color: #ffffff
+
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  font-family: 'Argentum Sans', sans-serif
+  overflow: hidden
+
+  &::-webkit-scrollbar
+    display: none
+
+.applications-container
+  display: grid
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr))
+  gap: 20px
+  justify-content: center
+  overflow: hidden
+  padding: 0 30px
+
+.application-container
+  text-align: center
+  width: 100%
+
+.application
+  width: 100%
+  height: auto
+  border-radius: 20%
+  transition: transform 0.3s, margin-top 0.3s
+  margin-top: 15px
+  cursor: pointer
+
+  &.light
+    box-shadow: 0px 0px 15px rgba(47, 53, 61, 0.3)
+
+  &.dark
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3)
+
+.application-text
+  opacity: 0
+  font-size: 20px
+  margin-top: 10px
+  transition: opacity 0.3s, margin-top 0.3s
+
+.application-container:hover
+  .application
+    transform: scale(1.2)
+    margin-top: 35px
+    transition: transform 0.3s, margin-top 0.3s
+
+  .application-text
+    display: block
+    opacity: 1
+    margin-top: 20px
+    transition: opacity 0.3s, margin-top 0.3s
+
+.testDivHome
+  margin-top: 100px
+
+.testBttnHome
+  background-color: black
+  border-style: none
+  color: #ffffff
+  font-size: 18px
+  cursor: pointer
+  transition: font-size 0.3s
+
+  &:hover
+    font-size: 24px
+    transition: font-size 0.3s
+
+  &:nth-child(2)
+    margin-left: 50px
+
+.title
+  font-size: 30px
+  margin-bottom: 70px
+  margin-top: 0
+
+@media (max-width: 768px)
+  .applications-container
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))
+    justify-content: center
+
+  .title
+    margin-top: 20px
+    font-size: 25px

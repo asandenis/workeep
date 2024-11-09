@@ -1,0 +1,85 @@
+.header
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 10px 20px
+  font-size: 18px
+  font-family: 'Argentum Sans', sans-serif
+  overflow: hidden
+
+  &.light
+    background-color: #eaeaea
+    color: #363d44
+
+  &.dark
+    background-color: #363d44
+    color: #ffffff
+
+.header-left
+  display: flex
+  align-items: center
+  height: 50px
+  transition: height 0.3s
+  cursor: pointer
+
+  &:hover
+    height: 70px
+    transition: height 0.3s
+
+    .logo
+      transform: scale(1.3)
+      margin-left: 8px
+      transition: transform 0.3s, margin-left 0.3s
+
+    .header-text
+      transform: scale(1.3)
+      margin-left: 28px
+      transition: transform 0.3s, margin-left 0.3s
+
+    .header
+      height: 500px
+
+.header-right
+  display: flex
+  align-items: center
+
+.logo
+  width: 50px
+  height: 50px
+  transition: transform 0.3s, margin-left 0.3s
+
+.header-text
+  margin-left: 10px
+  transition: transform 0.3s, margin-left 0.3s
+
+.user-icon-container
+  width: 50px
+  height: 50px
+  border-radius: 50%
+  cursor: pointer
+  transition: width 0.3s, height 0.3s
+  overflow: hidden
+  background-color: white
+
+  img
+    width: 100%
+    height: 100%
+    object-fit: cover
+    object-position: center
+
+  &:hover
+    width: 70px
+    height: 70px
+    transition: width 0.3s, height 0.3s
+
+.mode-icon
+  width: 30px
+  height: 30px
+  cursor: pointer
+  margin-right: 10px
+  transition: width 0.3s, height 0.3s
+
+  &:hover
+    width: 40px
+    height: 40px
+    transition: width 0.3s, height 0.3s

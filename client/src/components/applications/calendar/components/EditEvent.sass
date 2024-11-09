@@ -1,0 +1,178 @@
+.modal
+  position: fixed
+  top: 0
+  left: 0
+  width: 80px
+  height: 100%
+  background-color: rgba(0, 0, 0, 0.5)
+  display: flex
+  justify-content: center
+  align-items: center
+
+.editevent-modal-content
+  background-color: #363d44
+  color: #ffffff
+  padding: 20px
+  border-radius: 10px
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+  width: 450px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
+  &.light
+    background-color: #eaeaea
+    color: #363d44
+
+.editevent-header
+  display: flex
+  justify-content: center
+  align-items: center
+
+.editevent-close-icon
+  float: right
+  cursor: pointer
+  background-color: rgb(206, 19, 19)
+  border-radius: 50%
+  width: 20px
+  height: 20px
+  transition: transform 0.3s, background-color 0.3s
+  margin-left: 20px
+
+  &.light
+    color: #fff
+
+  &:hover
+    background-color: red
+    transform: scale(1.5)
+
+.date-inputs
+  display: flex
+  flex-direction: row
+  justify-content: space-around
+  width: 100%
+  gap: 40px
+
+.color-select-inputs-group
+  display: flex
+  flex-direction: row
+  justify-content: space-around
+  width: 100%
+
+.input-group
+  margin-bottom: 15px
+  font-size: 20px
+  width: 100%
+
+.editevent-deadline, .editevent-title, .editevent-description, .editevent-colorSelect, .editevent-employeeSelect
+  width: calc(100% - 22px)
+  margin-top: 10px
+  border-radius: 5px
+  border: 1px solid #ccc
+  background-color: #2b3036
+  color: #ffffff
+  font-family: 'Argentum Sans', sans-serif
+  padding: 10px
+
+.editevent-deadline.light, .editevent-title.light, .editevent-description.light, .editevent-colorSelect.light, .editevent-employeeSelect.light
+  background-color: #eaeaea
+  color: #363d44
+
+.editevent-colorSelect
+  width: 100%
+  max-width: 100px
+
+.editevent-description
+  height: 150px
+
+.editevent-bttn-container
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
+.editevent-bttn
+  width: 250px
+  padding: 10px
+  border: none
+  border-radius: 5px
+  cursor: pointer
+  transition: background-color 0.3s, font-size 0.3s, width 0.3s
+  font-family: 'Argentum Sans', sans-serif
+  font-size: 20px
+  margin-right: 10px
+  margin-bottom: 10px
+
+  &:first-child
+    background-color: #f8c630
+    color: #2b2929
+
+    &:hover
+      background-color: #fcae24
+      font-size: 25px
+      width: 300px
+
+  &:nth-child(2)
+    background-color: #747474
+    color: #ffffff
+
+    &:hover
+      background-color: #505050
+      font-size: 25px
+      width: 300px
+
+  &:last-child
+    background-color: #747474
+    color: #ffffff
+
+  &.light
+    &:last-child, &:nth-child(2)
+      background-color: #424242
+      color: #ffffff
+
+    &:last-child:hover, &:nth-child(2):hover
+      background-color: #323232
+
+  &:last-child:hover
+    background-color: #505050
+    font-size: 25px
+    width: 300px
+
+.color-circle
+  width: 20px
+  height: 20px
+  border-radius: 50%
+  margin-right: 10px
+
+.editevent-employeeSelect
+  min-width: 300px
+  width: 100%
+  max-width: 320px
+  border: 1px solid #ccc
+  border-radius: 5px
+  background-color: #2b3036
+  color: #ffffff
+  font-family: 'Argentum Sans', sans-serif
+
+  .react-select__control
+    border-color: #363d44
+
+  .react-select__menu
+    background-color: #363d44
+
+  .react-select__option
+    color: #ffffff
+
+  .react-select__option--is-selected
+    background-color: #2b3036
+
+  .react-select__option--is-focused
+    background-color: #4a525a
+
+.input-group .error-message
+  font-size: 15px
+  color: red
+  margin-top: 0px
+  margin-bottom: 0px
+  margin-top: 5px

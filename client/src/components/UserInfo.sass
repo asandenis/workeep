@@ -1,0 +1,84 @@
+.organigram-user-modal-container
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  z-index: 2
+
+.organigram-user-info
+  position: absolute
+  background-color: #363d44
+  color: #ffffff
+  border: 1px solid #ddd
+  border-radius: 5px
+  padding: 10px
+  z-index: 1000
+
+  &.light
+    background-color: #eee
+    color: #363d44
+
+.organigram-user-info-container
+  display: flex
+  flex-direction: row
+  justify-content: center
+
+.organigram-user-info-data
+  margin-bottom: 20px
+  margin-right: 25px
+  margin-left: 25px
+
+.organigram-user-info-name
+  font-size: 25px
+  font-weight: bold
+  margin-bottom: 15px
+
+.organigram-user-info-job, .organigram-user-info-email, .organigram-user-info-phone
+  font-size: 20px
+  margin-bottom: 3px
+
+.organigram-user-info-picture-container
+  border-right: 1px dashed #ccc
+  height: 120px
+
+.organigram-user-info-picture
+  margin-bottom: 10px
+  margin-right: 25px
+  margin-left: 15px
+  width: 120px
+  border-radius: 50%
+  height: auto
+
+.organigram-user-info-header
+  display: flex
+  justify-content: right
+
+.organigram-user-info-close-icon
+  cursor: pointer
+  background-color: rgb(206, 19, 19)
+  color: #fff
+  border-radius: 50%
+  width: 20px
+  height: 20px
+  transition: transform 0.3s, background-color 0.3s
+  margin-top: 5px
+  margin-right: 5px
+
+  &:hover
+    background-color: red
+    transform: scale(1.5)
+    transition: transform 0.3s, background-color 0.3s
+
+.spatiu-pt-manager
+  width: 350px
+  height: 300px
+  border-left: 1px dashed #ccc
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  gap: 10px
+
+.userinfo-pie-chart, .userinfo-line-chart
+  width: 180px

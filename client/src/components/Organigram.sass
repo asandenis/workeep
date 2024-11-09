@@ -1,0 +1,57 @@
+.organigram
+  display: flex
+  flex-direction: column
+  align-items: left
+  font-family: Arial, sans-serif
+  margin-top: 20px
+  height: calc(100vh + 40px)
+
+.root-nodes, .sub-nodes
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: left
+  width: 100%
+  margin-left: 20px
+
+.user-node
+  margin: 10px
+  padding: 10px
+  border: 1px solid #ddd
+  border-radius: 5px
+  background-color: #363d44
+  color: #ffffff
+  text-align: center
+  cursor: pointer
+  position: relative
+
+  &.light
+    background-color: #eee
+    color: #363d44
+    border: 1px solid #363d44
+
+.user-info-container
+  display: flex
+  align-items: center
+
+.user-name
+  font-size: 16px
+  font-weight: bold
+  margin-right: 5px
+
+.arrow
+  font-size: 16px
+  cursor: pointer
+  user-select: none
+
+.dotted-line
+  border-top: 1px dashed #ccc
+  width: 100%
+  margin: 10px 0
+
+.level-indicator
+  font-size: 15px
+  margin-left: 30px
+
+.notifications-container
+  margin-top: 20px

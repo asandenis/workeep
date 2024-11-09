@@ -1,0 +1,122 @@
+.login
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  height: 100vh
+  overflow: hidden
+
+  &.dark
+    background-color: #363d44
+    color: #ffffff
+
+  &.light
+    background-color: #ffffff
+    color: #363d44
+
+.login-theme
+  position: fixed
+  top: 20px
+  right: 20px
+
+.login-container
+  text-align: center
+
+.login-logo
+  width: 100px
+  margin-bottom: 20px
+
+.login-form
+  display: flex
+  flex-direction: column
+  align-items: center
+
+.login-input
+  width: 300px
+  margin-bottom: 10px
+  padding: 10px
+  border-radius: 5px
+  font-family: 'Argentum Sans', sans-serif
+  font-size: 15px
+  transition: width 0.3s, font-size 0.3s
+
+  &.dark
+    background-color: #ffffff
+    color: #363d44
+    border: 1px solid #ccc
+
+  &.light
+    background-color: #363d44
+    color: #ffffff
+    border: 1px solid #111
+
+  &:hover
+    font-size: 20px
+    width: 320px
+    transition: width 0.3s, font-size 0.3s
+
+.login-button
+  &.dark.enabled, &.light.enabled
+    width: 200px
+    padding: 10px
+    border: none
+    border-radius: 5px
+    background-color: rgb(73, 209, 255)
+    color: #ffffff
+    cursor: pointer
+    transition: background-color 0.3s, font-size 0.3s, width 0.3s
+    font-family: 'Argentum Sans', sans-serif
+    font-size: 20px
+    margin-top: 30px
+
+  &.dark.disabled, &.light.disabled
+    width: 200px
+    padding: 10px
+    border: none
+    border-radius: 5px
+    color: #ffffff
+    cursor: not-allowed
+    transition: background-color 0.3s, font-size 0.3s, width 0.3s
+    font-family: 'Argentum Sans', sans-serif
+    font-size: 20px
+    margin-top: 30px
+
+  &.dark.enabled:hover, &.light.enabled:hover
+    background-color: rgb(47, 152, 187)
+    width: 220px
+    transition: background-color 0.3s, font-size 0.3s, width 0.3s
+    font-size: 25px
+
+  &.dark.disabled:hover, &.light.disabled:hover
+    width: 220px
+    transition: background-color 0.3s, font-size 0.3s, width 0.3s
+    font-size: 25px
+
+  &.dark.disabled
+    background-color: #747474
+
+  &.light.disabled
+    background-color: #424242
+
+  &.dark.disabled:hover
+    background-color: #505050
+
+  &.light.disabled:hover
+    background-color: #323232
+
+.login-container .forgotPass
+  font-size: 15px
+  cursor: pointer
+  transition: all 0.3s
+
+  &:hover
+    font-size: 18px
+    transition: all 0.3s
+    text-decoration: underline
+
+.login-form .error-message
+  font-size: 15px
+  color: red
+  margin-top: 0px
+  margin-bottom: 15px
+  font-family: 'Argentum Sans', sans-serif

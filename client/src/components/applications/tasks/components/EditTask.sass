@@ -1,0 +1,167 @@
+.modal-edit-task
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background-color: rgba(0, 0, 0, 0.5)
+  display: flex
+  justify-content: center
+  align-items: center
+
+.modal-edit-task-content
+  background-color: #363d44
+  color: #ffffff
+  padding: 20px
+  border-radius: 10px
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+  width: 400px
+
+  &.light
+    background-color: #eaeaea
+    color: #363d44
+
+.edittask-header
+  display: flex
+  justify-content: center
+  align-items: center
+
+.edittask-close-icon
+  float: right
+  cursor: pointer
+  background-color: rgb(206, 19, 19)
+  border-radius: 50%
+  width: 20px
+  height: 20px
+  transition: transform 0.3s, background-color 0.3s
+  margin-left: 20px
+
+  &.light
+    color: #fff
+
+  &:hover
+    background-color: red
+    transform: scale(1.5)
+    transition: transform 0.3s, background-color 0.3s
+
+.edittask-date-inputs
+  display: flex
+  align-items: center
+  justify-content: space-between
+  font-family: 'Argentum Sans', sans-serif
+
+.input-group
+  margin-bottom: 15px
+  font-family: 'Argentum Sans', sans-serif
+
+.edittask-deadline, .edittask-title
+  width: calc(100%)
+  padding: 10px
+  margin-top: 10px
+  border-radius: 5px
+  border: 1px solid #ccc
+  box-sizing: border-box
+  font-family: 'Argentum Sans', sans-serif
+  background-color: #363d44
+  color: #ffffff
+
+  &.light
+    background-color: #eaeaea
+    color: #363d44
+
+.edittask-description
+  height: 150px
+  width: calc(100%)
+  padding: 10px
+  margin-top: 10px
+  margin-bottom: 10px
+  border-radius: 5px
+  border: 1px solid #ccc
+  box-sizing: border-box
+  resize: none
+  overflow-y: auto
+  font-family: 'Argentum Sans', sans-serif
+  background-color: #363d44
+  color: #ffffff
+
+  &.light
+    background-color: #eaeaea
+    color: #363d44
+
+  &::-webkit-scrollbar
+    display: none
+
+  -ms-overflow-style: none
+  scrollbar-width: none
+
+.edittask-roleselect
+  margin-top: 10px
+  border: 1px solid #ccc
+  border-radius: 5px
+  min-width: 240px
+  max-width: 250px
+  width: 100%
+  font-family: 'Argentum Sans', sans-serif
+  background-color: #363d44
+  color: #ffffff
+
+.color-circle
+  width: 20px
+  height: 20px
+  border-radius: 50%
+
+.edittask-bttn-container
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
+.edittask-bttn
+  width: 200px
+  padding: 10px
+  border: none
+  border-radius: 5px
+  cursor: pointer
+  transition: background-color 0.3s, font-size 0.3s, width 0.3s
+  font-family: 'Argentum Sans', sans-serif
+  font-size: 20px
+  margin-bottom: 10px
+
+  &:first-child
+    background-color: #f8c630
+    color: #2b2929
+
+    &:hover
+      background-color: #fcae24
+      width: 250px
+      transition: background-color 0.3s, font-size 0.3s, width 0.3s
+      font-size: 25px
+
+  &:last-child, &:nth-child(2)
+    background-color: #747474
+    color: #ffffff
+
+  &.light
+    &:last-child, &:nth-child(2)
+      background-color: #424242
+      color: #ffffff
+
+  &:last-child:hover, &:nth-child(2):hover
+    background-color: #505050
+    width: 250px
+    transition: background-color 0.3s, font-size 0.3s, width 0.3s
+    font-size: 25px
+
+  &.light
+    &:last-child:hover, &:nth-child(2):hover
+      background-color: #323232
+      width: 250px
+      transition: background-color 0.3s, font-size 0.3s, width 0.3s
+      font-size: 25px
+
+.input-group .error-message
+  font-size: 15px
+  color: red
+  margin-top: 0px
+  margin-bottom: 0px
+  margin-top: 5px

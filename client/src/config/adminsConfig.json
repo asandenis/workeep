@@ -1,0 +1,152 @@
+{
+    "admins": [
+        {
+            "id": "Chief Executive Officer",
+            "name": "Chief Executive Officer"
+        },
+        {
+            "id": "Chief Financial Officer",
+            "name": "Chief Financial Officer"
+        },
+        {
+            "id": "Chief Operating Officer",
+            "name": "Chief Operating Officer"
+        },
+        {
+            "id": "Chief Information Officer",
+            "name": "Chief Information Officer"
+        },
+        {
+            "id": "Chief Marketing Officer",
+            "name": "Chief Marketing Officer"
+        },
+        {
+            "id": "Chief Human Resources Officer",
+            "name": "Chief Human Resources Officer"
+        },
+        {
+            "id": "Chief Technology Officer",
+            "name": "Chief Technology Officer"
+        },
+        {
+            "id": "Chief Compliance Officer",
+            "name": "Chief Compliance Officer"
+        },
+        {
+            "id": "Administrator",
+            "name": "Administrator"
+        },
+        {
+            "id": "Director Customer Service",
+            "name": "Director Customer Service"
+        },
+        {
+            "id": "Director Dezvoltare Produse",
+            "name": "Director Dezvoltare Produse"
+        },
+        {
+            "id": "Director Financiar",
+            "name": "Director Financiar"
+        },
+        {
+            "id": "Director Marketing",
+            "name": "Director Marketing"
+        },
+        {
+            "id": "Director Operațiuni",
+            "name": "Director Operațiuni"
+        },
+        {
+            "id": "Director Resurse Umane",
+            "name": "Director Resurse Umane"
+        },
+        {
+            "id": "Director Tehnologia Informației",
+            "name": "Director Tehnologia Informației"
+        },
+        {
+            "id": "Director Vânzări",
+            "name": "Director Vânzări"
+        },
+        {
+            "id": "Manager Achiziții de Talente",
+            "name": "Manager Achiziții de Talente"
+        },
+        {
+            "id": "Manager Asigurarea Calității",
+            "name": "Manager Asigurarea Calității"
+        },
+        {
+            "id": "Manager Conformitate",
+            "name": "Manager Conformitate"
+        },
+        {
+            "id": "Manager Cibersecuritate",
+            "name": "Manager Cibersecuritate"
+        },
+        {
+            "id": "Manager Tehnologia Informației",
+            "name": "Manager Tehnologia Informației"
+        },
+        {
+            "id": "Manager Logistică",
+            "name": "Manager Logistică"
+        },
+        {
+            "id": "Manager Marketing",
+            "name": "Manager Marketing"
+        },
+        {
+            "id": "Manager Operațiuni",
+            "name": "Manager Operațiuni"
+        },
+        {
+            "id": "Manager Proiect",
+            "name": "Manager Proiect"
+        },
+        {
+            "id": "Manager Relații Publice",
+            "name": "Manager Relații Publice"
+        },
+        {
+            "id": "Manager Resurse Umane",
+            "name": "Manager Resurse Umane"
+        },
+        {
+            "id": "Manager Servicii Clienți",
+            "name": "Manager Servicii Clienți"
+        },
+        {
+            "id": "Manager Sustenabilitate",
+            "name": "Manager Sustenabilitate"
+        },
+        {
+            "id": "Manager Financiar",
+            "name": "Manager Financiar"
+        },
+        {
+            "id": "Manager Lanț de Aprovizionare",
+            "name": "Manager Lanț de Aprovizionare"
+        },
+        {
+            "id": "Manager Mediu, Sănătate și Siguranță",
+            "name": "Manager Mediu, Sănătate și Siguranță"
+        },
+        {
+            "id": "Manager Produs",
+            "name": "Manager Produs"
+        },
+        {
+            "id": "Manager Risc",
+            "name": "Manager Risc"
+        },
+        {
+            "id": "Manager Vânzări",
+            "name": "Manager Vânzări"
+        },
+        {
+            "id": "Team Lead",
+            "name": "Team Lead"
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+.modal
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background-color: rgba(0, 0, 0, 0.5)
+  display: flex
+  justify-content: center
+  align-items: center
+
+.modal-content
+  background-color: #363d44
+  color: #ffffff
+  padding: 20px
+  border-radius: 10px
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+  width: 400px
+
+  &.light
+    background-color: #eaeaea
+    color: #363d44
+
+.taskinfo-header
+  display: flex
+  justify-content: center
+  align-items: center
+
+.taskinfo-close-icon
+  cursor: pointer
+  background-color: rgb(206, 19, 19)
+  border-radius: 50%
+  width: 20px
+  height: 20px
+  transition: transform 0.3s, background-color 0.3s
+  margin-left: 20px
+
+  &.light
+    color: #fff
+
+  &:hover
+    background-color: red
+    transform: scale(1.5)
+    transition: transform 0.3s, background-color 0.3s
+
+.taskinfo-status, .taskinfo-description, .input-group
+  margin-bottom: 15px
+  font-family: 'Argentum Sans', sans-serif
+
+.resolution
+  width: calc(100%)
+  padding: 10px
+  margin-top: 10px
+  border-radius: 5px
+  border: 1px solid #ccc
+  box-sizing: border-box
+  font-family: 'Argentum Sans', sans-serif
+  background-color: #363d44
+  color: #ffffff
+
+  &.light
+    background-color: #eaeaea
+    color: #363d44
+
+.taskinfo-bttn-container
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
+.taskinfo-bttn
+  width: 300px
+  padding: 10px
+  border: none
+  border-radius: 5px
+  cursor: pointer
+  transition: background-color 0.3s, font-size 0.3s, width 0.3s
+  font-family: 'Argentum Sans', sans-serif
+  font-size: 20px
+  margin-bottom: 10px
+
+  &:first-child, &:nth-child(2)
+    background-color: #f8c630
+    color: #2b2929
+
+    &:hover
+      background-color: #fcae24
+      width: 350px
+      transition: background-color 0.3s, font-size 0.3s, width 0.3s
+      font-size: 25px
+
+  &:last-child
+    background-color: #747474
+    color: #ffffff
+
+  &.light:last-child
+    background-color: #424242
+    color: #ffffff
+
+  &:last-child:hover
+    background-color: #505050
+    width: 350px
+    transition: background-color 0.3s, font-size 0.3s, width 0.3s
+    font-size: 25px
+
+  &.light:last-child:hover
+    background-color: #323232
+    width: 350px
+    transition: background-color 0.3s, font-size 0.3s, width 0.3s
+    font-size: 25px
+
+.edit-task-icons
+  margin-left: 5px
+
+.edit-task-icon
+  width: 12px
+  margin-left: 5px
+  cursor: pointer
+  transition: width 0.3s
+
+  &:hover
+    width: 30px
+    transition: width 0.3s

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Slip</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 210mm;
+            height: 297mm;
+            padding: 20mm;
+            margin: 0 auto;
+            border: 1px solid #000;
+            box-sizing: border-box;
+        }
+        .header, .footer {
+            width: 100%;
+            text-align: right;
+        }
+        .header img, .footer img {
+            width: 100px;
+            height: auto;
+        }
+        .content {
+            width: 100%;
+            margin-top: 20mm;
+        }
+        .content div {
+            margin-bottom: 10mm;
+        }
+        .salary-info {
+            background-color: #d3eafc;
+            padding: 10mm;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="<%= logo %>" alt="Logo">
+        </div>
+        <div class="content">
+            <div>Dată: <strong><%= data %></strong></div>
+            <div>Număr fluturaș salariu: <strong><%= sslip_id %></strong></div>
+            <div>Nume angajat: <strong><%= name %></strong></div>
+            <div class="salary-info">
+                <div>Salariu de bază: <strong><%= salary %> <%= currency %></strong></div>
+                <div>Ore lucrate: <strong><%= hours %> ore</strong></div>
+                <div>Salariu brut: <strong><%= calculatedSalary %> <%= currency %></strong></div>
+                <div>CAS: <strong>-<%= cas %> <%= currency %></strong></div>
+                <div>CASS: <strong>-<%= cass %> <%= currency %></strong></div>
+                <div>IV: <strong>-<%= iv %> <%= currency %></strong></div>
+                <div>Salariu NET: <strong><%= netSalary %> <%= currency %></strong></div>
+            </div>
+        </div>
+        <div class="footer">
+            <img src="<%= bankLogo %>" alt="Bank Logo">
+            <div>IBAN: <strong><%= iban %></strong></div>
+        </div>
+    </div>
+</body>
+</html>

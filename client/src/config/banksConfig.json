@@ -1,0 +1,22 @@
+{
+    "bankCodes": {
+        "BPOS": "Banc Post",
+        "BREL": "Libra Bank",
+        "BTRL": "Banca Transilvania",
+        "BUCU": "Alpha Bank",
+        "CECE": "CEC",
+        "CITI": "CITI Bank",
+        "CRCO": "CREDITCOOP",
+        "EXIM": "EXIM Bank",
+        "INGB": "ING",
+        "NBOR": "Banca Națională a României",
+        "OTPV": "OTP Bank",
+        "RNCB": "Banca Comercială Română",
+        "RZBR": "Raiffeisen Bank",
+        "UGBI": "Garanti Bank",
+        "BACX": "Unicredit Țiriac Bank",
+        "MIRO": "Procredit Bank",
+        "REVO": "Revolut",
+        "ROIN": "Salt"
+    }
+}

@@ -1,0 +1,135 @@
+.event-display-negatives-container
+  margin-top: 20px
+  margin-left: 20px
+
+.calendar-container
+  max-width: 600px
+  margin: 0 auto
+  margin-top: 10px
+  font-family: 'Argentum Sans', sans-serif
+
+.calendar-navigation
+  display: flex
+  align-items: center
+  justify-content: space-between
+  margin-bottom: 10px
+
+#showRejectedEventsCheckbox
+  width: 15px
+  height: 15px
+
+.calendar-navigation button
+  font-family: 'Argentum Sans', sans-serif
+
+.calendar-current-month
+  font-size: 1.5rem
+  font-weight: bold
+
+.calendar
+  margin-top: 20px
+
+.calendar-week
+  display: flex
+  flex-direction: row
+  margin-top: 40px
+
+.calendar-day
+  position: relative
+  padding: 10px
+  border: 1px solid #ccc
+  cursor: pointer
+  width: calc(100%/7)
+  box-sizing: border-box
+
+  &.disabled
+    background-color: #f7f7f7
+    color: #999
+    cursor: not-allowed
+
+.calendar-selected
+  background-color: #007bff
+  color: #fff
+
+.current-day
+  background-color: #c4f8b0
+
+  &.dark
+    color: #424b54
+
+.calendar-selected-date
+  margin-top: 50px
+  margin-bottom: 20px
+
+.calendar-buttons-container
+  display: flex
+  justify-content: center
+
+.calendar-buttons
+  display: flex
+  flex-direction: column
+  width: auto
+
+  button
+    font-family: 'Argentum Sans', sans-serif
+
+    &:nth-child(1)
+      margin-bottom: 10px
+
+.calendar-events-container
+  position: absolute
+  top: calc(100% + 5px)
+  left: 50%
+  width: auto
+  transform: translateX(-5px)
+  justify-content: center
+  max-height: 30px
+  overflow-y: auto
+
+  &::-webkit-scrollbar
+    display: none
+
+  -ms-overflow-style: none
+  scrollbar-width: none
+
+.calendar-event
+  width: 10px
+  height: 10px
+  margin-bottom: 5px
+  background-color: #ff0000
+  border-radius: 50%
+
+.calendar-bttn
+  background-color: #f8c630
+  color: #2b2929
+  padding: 10px
+  border: none
+  border-radius: 5px
+  cursor: pointer
+  transition: background-color 0.3s, font-size 0.3s, width 0.3s
+  font-family: 'Argentum Sans', sans-serif
+  font-size: 15px
+  margin-bottom: 10px
+
+  &:hover
+    background-color: #fcae24
+    transition: background-color 0.3s, font-size 0.3s, width 0.3s
+    font-size: 17px
+
+.calendar-bttn-create
+  width: 250px
+  background-color: #f8c630
+  color: #2b2929
+  padding: 10px
+  border: none
+  border-radius: 5px
+  cursor: pointer
+  transition: background-color 0.3s, font-size 0.3s, width 0.3s
+  font-family: 'Argentum Sans', sans-serif
+  font-size: 20px
+  margin-bottom: 10px
+
+  &:hover
+    background-color: #fcae24
+    width: 300px
+    transition: background-color 0.3s, font-size 0.3s, width 0.3s
+    font-size: 25px
