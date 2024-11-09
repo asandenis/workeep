@@ -3,7 +3,7 @@
 <h3 style="color: #555;">Use-ready management tool. Bachelor's Thesis Application.</h3>
 
 <p align="center">
-  <img src="https://i.imgur.com/PTcDaIa.png" width="500" alt="workeep Logo">
+  <img src="https://i.imgur.com/PTcDaIa.png" width="300" alt="workeep Logo">
 </p>
 
 <p align="center">
