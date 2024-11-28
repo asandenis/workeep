@@ -73,7 +73,7 @@
     JavaScript
   </li>
   <li>
-    <img src="https://static-00.iconduck.com/assets.00/filezilla-icon-2048x2026-kspuu7vr.png" width="24" alt="FileZilla Icon" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/FileZilla_logo.svg/1200px-FileZilla_logo.svg.png" width="24" alt="FileZilla Icon" />
     FileZilla
   </li>
 </ul>
